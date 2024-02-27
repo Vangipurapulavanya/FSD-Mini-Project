@@ -1,14 +1,13 @@
 
 import './App.css'
-import Button from '@mui/material/Button';
+import WeatherApp from './assets/WeatherApp'
+
 
 function App() {
-  
-
   return (
-    <>
-      <Button variant="contained">Click Me</Button>
-    </>
+    <div>
+      <WeatherApp/>
+    </div>
   )
 }
 
